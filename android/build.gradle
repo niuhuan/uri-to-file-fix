@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "in.lazymanstudios.uri_to_file"
     compileSdkVersion 31
 
     compileOptions {
